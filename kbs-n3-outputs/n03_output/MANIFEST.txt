@@ -1,0 +1,12 @@
+N03 output · utils 0.1.2 · 251.0 min · main 1926 · CF 2839 · E1b 289 · fewshot 30 · drawings 5315 (png 5315)
+corr after Stage 2 (pearson): {'nu': 0.0406, 'eld': 0.056, 'xr': 0.0706}
+
+candidates.parquet                  320.6 KB   every Stage-1 attempt (feasibility record, no coords)
+drawings.parquet                   5739.4 KB   one row per drawing: coords, exact metrics, realism, png path
+fig_F2_gallery.png                  888.7 KB   paper Fig 2 (stimulus gallery)
+fig_F3b_decorrelation.png            66.7 KB   paper Fig 3b
+fig_cell_counts.png                  37.6 KB   pairs per cell
+pairs.parquet                       250.0 KB   one row per pair: sets main/counterfactual/e1b_mooney/fewshot, d_* = B minus A, correct answer
+pdcp_utils.py                        21.9 KB   shared module v0.1.2 (int seeds) - use from now on
+stage2_report.json                    3.8 KB   design, success rates, correlations before/after, checks
+images/768/  5315 PNG files
